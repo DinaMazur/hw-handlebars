@@ -1,0 +1,29 @@
+{
+  "name": "hw-handlebars",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url /hw-handlebars/",
+    "deploy": "gh-pages -d dist "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DinaMazur/hw-handlebars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DinaMazur/hw-handlebars/issues"
+  },
+  "homepage": "https://github.com/DinaMazur/hw-handlebars",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.14.4"
+  },
+  "devDependencies": {
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^2.0.1"
+  }
+}
