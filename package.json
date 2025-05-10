@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/DinaMazur/hw-handlebars/issues"
   },
-  "homepage": "https://github.com/DinaMazur/hw-handlebars",
+  "homepage": "https://dinamazur.github.io/hw-handlebars/",
   "dependencies": {
     "gh-pages": "^6.3.0",
     "handlebars": "^4.7.8",
